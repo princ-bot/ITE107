@@ -16,7 +16,6 @@ public class Payroll extends JFrame implements ActionListener {
     private ArrayList<Employee> employeeList;
     private JButton addButton, updateButton, deleteButton, clearButton;
 
-    // Define a fixed tax rate (e.g., 10%)
     private static final double TAX_RATE = 0.10;
 
     public Payroll() {
